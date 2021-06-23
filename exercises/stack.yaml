@@ -4,3 +4,8 @@ install-ghc: true
 flags:
   mintty:
     win32-2-13-1: false
+
+nix:
+  enable: true
+  packages:
+    - zlib
